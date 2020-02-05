@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+    margin: 0;
+}
+.progress{
+    background-color: #d8d8d8;
+    margin-left: 20%;
+    border-radius: 10px;
+    height: 30px;
+    width: 50%;
+    
+}
+.progress-done{
+    box-shadow: 0 3px 3px -5px #f2709c,0 2px 5px #ff9472;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    transition: 1s;
+}
